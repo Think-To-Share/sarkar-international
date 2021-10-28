@@ -70,23 +70,32 @@
 }
 //hero section
 .hero-section{
-    height: 700px;
-    background-image: url(../images/heroimg.jpg);
-    background-size: cover;
-    background-position: bottom center;
     .slides{
         .slide{
-            .hero-heading{
-                color: #fff;
-                font-family: $primary-font;
-                font-weight: 700;
-                text-align: center;
-                font-size: 6em;
-                padding-bottom: 30px;
+        height: 700px;
+        background-image: url(../images/heroimg.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        display: flex;
+        align-items: flex-end;
+            .slide-main{
+                
+                .text-container{
+                    .hero-heading{
+                        color: #fff;
+                        font-family: $primary-font;
+                        font-weight: 700;
+                        text-align: center;
+                        font-size: 6em;
+                        padding-bottom: 30px;
+                    }
+                    .button-discover {
+                        @include button(#fff,#000);
+                    }
+                }
+               
             }
-            .button-discover {
-                @include button(#fff,#000);
-            }
+         
         }
     
     }
