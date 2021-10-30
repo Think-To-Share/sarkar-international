@@ -40,6 +40,10 @@
         margin-bottom: 20px;
         font-family: $primary-font;
         font-weight: 700;
+        text-align: center;
+        @media (min-width: 768px) {
+            text-align: left;
+        }
     }
     .footer-menuicon{         
         li{
