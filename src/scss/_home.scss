@@ -94,7 +94,7 @@
     .slides{
         .slide{
         
-        background-image: url(../images/heroimg.jpg);
+        // background-image: url(../images/heroimg.jpg);
         background-size: cover;
         background-position: bottom center;
         
@@ -236,6 +236,11 @@
             }
         }
     }
+    .slide{
+        .row{
+            margin:0;
+        }
+    }
     .section-heading{
         position: relative;
         margin-bottom: 40px;
@@ -343,12 +348,12 @@
         }
     }
     .contact-card{
-        box-shadow: 7px 8px 14px 6px #00000040;
+        box-shadow:10px 8px 20px 9px #60606017;
         padding: 50px 30px;
         height: 100%;
     form{
         
-        input{
+        input , textarea{
             width:100%;
             border: none;
             border-bottom: 1px solid;           
